@@ -47,7 +47,7 @@ namespace ReportDesignerExample
 
             StiOptions.Services.DataAdapters.Add(new GReportAdapterService(this));
 
-
+            UpdateAssemblies();
             _report.Design(true);
         }
 

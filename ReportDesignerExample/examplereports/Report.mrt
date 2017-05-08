@@ -39,11 +39,11 @@
       <Components isList="true" count="1">
         <DataBand1 Ref="5" type="DataBand" isKey="true">
           <Brush>Transparent</Brush>
-          <ClientRectangle>0,0.4,19,1.2</ClientRectangle>
+          <ClientRectangle>0,0.4,19,2.8</ClientRectangle>
           <Components isList="true" count="2">
             <Text1 Ref="6" type="Text" isKey="true">
               <Brush>Transparent</Brush>
-              <ClientRectangle>14,0.6,1.6,0.6</ClientRectangle>
+              <ClientRectangle>9.2,1.2,1.6,0.6</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>Arial,8</Font>
               <Margins>0,0,0,0</Margins>
@@ -55,7 +55,7 @@
             </Text1>
             <Text2 Ref="7" type="Text" isKey="true">
               <Brush>Transparent</Brush>
-              <ClientRectangle>17,0.6,1.6,0.6</ClientRectangle>
+              <ClientRectangle>11.4,1.2,1.6,0.6</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>Arial,8</Font>
               <Margins>0,0,0,0</Margins>
@@ -77,7 +77,7 @@
         </DataBand1>
       </Components>
       <Conditions isList="true" count="0" />
-      <Guid>e4e96cc20572457a9a200adc2539e7ba</Guid>
+      <Guid>370bdecdb5f74b2d998d7c652007fcae</Guid>
       <Margins>1,1,1,1</Margins>
       <Name>Page1</Name>
       <PageHeight>29.7</PageHeight>
@@ -91,7 +91,7 @@
   </Pages>
   <PreviewSettings>268435455</PreviewSettings>
   <PrinterSettings Ref="9" type="Stimulsoft.Report.Print.StiPrinterSettings" isKey="true" />
-  <ReferencedAssemblies isList="true" count="8">
+  <ReferencedAssemblies isList="true" count="9">
     <value>System.Dll</value>
     <value>System.Drawing.Dll</value>
     <value>System.Windows.Forms.Dll</value>
@@ -100,13 +100,14 @@
     <value>Stimulsoft.Controls.Dll</value>
     <value>Stimulsoft.Base.Dll</value>
     <value>Stimulsoft.Report.Dll</value>
+    <value>ReportDesignerExample</value>
   </ReferencedAssemblies>
   <ReportAlias>Report</ReportAlias>
   <ReportCacheMode>On</ReportCacheMode>
-  <ReportChanged>5/4/2017 3:02:29 PM</ReportChanged>
-  <ReportCreated>5/4/2017 3:01:08 PM</ReportCreated>
-  <ReportFile />
-  <ReportGuid>faa926b2ae054956bffb83a190d8dd46</ReportGuid>
+  <ReportChanged>5/8/2017 12:28:01 PM</ReportChanged>
+  <ReportCreated>5/8/2017 12:20:11 PM</ReportCreated>
+  <ReportFile>C:\Users\pedi\Documents\Visual Studio 2015\Projects\ReportDesignerExample\ReportDesignerExample\examplereports\Report.mrt</ReportFile>
+  <ReportGuid>80bad18bb6cf40d2ab0f35a86b85980f</ReportGuid>
   <ReportImage isNull="true" />
   <ReportName>Report</ReportName>
   <ReportUnit>Centimeters</ReportUnit>
@@ -130,7 +131,7 @@ namespace Reports
         }
 
         #region StiReport Designer generated code - do not modify
-        #endregion StiReport Designer generated code - do not modify
+		#endregion StiReport Designer generated code - do not modify
     }
 }
 </Script>
