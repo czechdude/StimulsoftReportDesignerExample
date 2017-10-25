@@ -34,34 +34,34 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Stimulsoft.Base">
-      <HintPath>2016_3\Stimulsoft.Base.dll</HintPath>
+      <HintPath>2017_2\Stimulsoft.Base.dll</HintPath>
     </Reference>
     <Reference Include="Stimulsoft.Controls">
-      <HintPath>2016_3\Stimulsoft.Controls.dll</HintPath>
+      <HintPath>2017_2\Stimulsoft.Controls.dll</HintPath>
     </Reference>
     <Reference Include="Stimulsoft.Controls.Win">
-      <HintPath>2016_3\Stimulsoft.Controls.Win.dll</HintPath>
+      <HintPath>2017_2\Stimulsoft.Controls.Win.dll</HintPath>
     </Reference>
     <Reference Include="Stimulsoft.Database">
-      <HintPath>2016_3\Stimulsoft.Database.dll</HintPath>
+      <HintPath>2017_2\Stimulsoft.Database.dll</HintPath>
     </Reference>
     <Reference Include="Stimulsoft.Design">
-      <HintPath>2016_3\Stimulsoft.Design.dll</HintPath>
+      <HintPath>2017_2\Stimulsoft.Design.dll</HintPath>
     </Reference>
     <Reference Include="Stimulsoft.Editor">
-      <HintPath>2016_3\Stimulsoft.Editor.dll</HintPath>
+      <HintPath>2017_2\Stimulsoft.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Stimulsoft.Report">
-      <HintPath>2016_3\Stimulsoft.Report.dll</HintPath>
+      <HintPath>2017_2\Stimulsoft.Report.dll</HintPath>
     </Reference>
     <Reference Include="Stimulsoft.Report.Check">
-      <HintPath>2016_3\Stimulsoft.Report.Check.dll</HintPath>
+      <HintPath>2017_2\Stimulsoft.Report.Check.dll</HintPath>
     </Reference>
     <Reference Include="Stimulsoft.Report.Design">
-      <HintPath>2016_3\Stimulsoft.Report.Design.dll</HintPath>
+      <HintPath>2017_2\Stimulsoft.Report.Design.dll</HintPath>
     </Reference>
     <Reference Include="Stimulsoft.Report.Helper">
-      <HintPath>2016_3\Stimulsoft.Report.Helper.dll</HintPath>
+      <HintPath>2017_2\Stimulsoft.Report.Helper.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
