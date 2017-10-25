@@ -46,6 +46,7 @@ namespace ReportDesignerExample
             // Database access
 
             StiOptions.Services.DataAdapters.Add(new GReportAdapterService(this));
+            StiOptions.Services.Components.Add(new GReportMapComponent());
 
             UpdateAssemblies();
             _report.Design(true);
