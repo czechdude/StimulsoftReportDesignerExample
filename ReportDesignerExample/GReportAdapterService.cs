@@ -52,6 +52,7 @@ namespace ReportDesignerExample
             return new List<string>() { "first", "second" };
         }
 
+
         public DataTable CreateMockedDataTable(GReportDataSource customDataSource)
         {
             
@@ -62,15 +63,15 @@ namespace ReportDesignerExample
             var dataTable = new DataTable(customDataSource.Name);
 
             dataTable.Columns.Add("id", typeof(int));
-            dataTable.Columns.Add("name", typeof(string));
+           // dataTable.Columns.Add("name", typeof(string));
 
             var dataRow = dataTable.NewRow();
             dataRow["id"] = 1;
-            dataRow["name"] = "First";
+            //dataRow["name"] = "First";
             dataTable.Rows.Add(dataRow);
             var dataRow2 = dataTable.NewRow();
             dataRow2["id"] = 2;
-            dataRow2["name"] = "Second";
+           //dataRow2["name"] = "Second";
             dataTable.Rows.Add(dataRow2);
             dataTable.AcceptChanges();
 

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.IO;
 using System.Linq;
 using System.Reflection;
@@ -7,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Stimulsoft.Report;
 using Stimulsoft.Report.Design;
+using Stimulsoft.Report.Dictionary;
 
 namespace ReportDesignerExample
 {
@@ -100,6 +102,20 @@ namespace ReportDesignerExample
         {
             StiReport.Load(filePath);
             UpdateAssemblies();
+
+            var list = new List<StiDataSource>(StiReport.DataSources.ToList());
+            StiReport.Dictionary.DataSources.Clear();
+            foreach (StiDataSource stiReportDataSource in list)
+            {
+                if (stiReportDataSource.GetDataAdapter() is GReportAdapterService gds)
+                {
+
+                    DataTable gDataTable = gds.CreateMockedDataTable(stiReportDataSource as GReportDataSource);
+                    StiReport.RegData(stiReportDataSource.GetCategoryName(), gDataTable);
+                }
+            }
+
+            StiReport.Dictionary.Synchronize();
         }
 
         /// <summary>
